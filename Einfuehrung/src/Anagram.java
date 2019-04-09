@@ -1,27 +1,21 @@
-
+import java.util.Arrays;
 public class Anagram {
 	static char[] charArray;
-static int wort;
-static int wort2;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		anagram("Hallo","Wiem");
 	}
 
-public static void anagram(String wort)
+public static void anagram(String wort,String wort2)
 
 {
-	System.out.println(wort);
 	charArray = wort.toCharArray();
+	wort.toLowerCase();
+	System.out.println(wort);
+
 }
-public static void anagramx(String wort2)
-{
-	System.out.println(wort2);
-	charArray = wort2.toCharArray();
-    wort2.toLowerCase();
-    
-}
+
 
 
 }
